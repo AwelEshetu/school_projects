@@ -1,0 +1,38 @@
+﻿Build started 13.4.2011 17:13:35.
+Project "Z:\c programming\exercise29999\exercise29999\exercise29999.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\exercise29999.lastbuildstate".
+InitializeBuildStatus:
+  Creating "Debug\exercise29999.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt exercise9999.c
+  exercise9999.c
+z:\c programming\exercise29999\exercise29999\exercise9999.c(6): warning C4005: 'NULL' : macro redefinition
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(122) : see previous definition of 'NULL'
+z:\c programming\exercise29999\exercise29999\exercise9999.c(22): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+z:\c programming\exercise29999\exercise29999\exercise9999.c(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+z:\c programming\exercise29999\exercise29999\exercise9999.c(32): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\exercise29999.exe.embed.manifest.res" Debug\exercise29999_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\c programming\exercise29999\Debug\exercise29999.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\exercise29999.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\c programming\exercise29999\Debug\exercise29999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\c programming\exercise29999\Debug\exercise29999.lib" /MACHINE:X86 Debug\exercise29999.exe.embed.manifest.res
+  Debug\exercise9999.obj
+Manifest:
+  Deleting file "Debug\exercise29999.exe.embed.manifest".
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\exercise29999.exe.embed.manifest" /manifest Debug\exercise29999.exe.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\exercise29999.exe.embed.manifest.res" Debug\exercise29999_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\c programming\exercise29999\Debug\exercise29999.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\exercise29999.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\c programming\exercise29999\Debug\exercise29999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\c programming\exercise29999\Debug\exercise29999.lib" /MACHINE:X86 Debug\exercise29999.exe.embed.manifest.res
+  Debug\exercise9999.obj
+  exercise29999.vcxproj -> Z:\c programming\exercise29999\Debug\exercise29999.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\exercise29999.unsuccessfulbuild".
+  Touching "Debug\exercise29999.lastbuildstate".
+Done Building Project "Z:\c programming\exercise29999\exercise29999\exercise29999.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.19

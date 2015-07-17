@@ -1,0 +1,44 @@
+﻿Build started 13.4.2011 17:36:56.
+Project "Z:\c programming\exercise277\exercise277\exercise277.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\exercise277.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt exercise277.c
+  exercise277.c
+z:\c programming\exercise277\exercise277\exercise277.c(5): warning C4005: 'NULL' : macro redefinition
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(122) : see previous definition of 'NULL'
+z:\c programming\exercise277\exercise277\exercise277.c(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+z:\c programming\exercise277\exercise277\exercise277.c(33): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+z:\c programming\exercise277\exercise277\exercise277.c(35): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+z:\c programming\exercise277\exercise277\exercise277.c(37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+z:\c programming\exercise277\exercise277\exercise277.c(39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+z:\c programming\exercise277\exercise277\exercise277.c(41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+z:\c programming\exercise277\exercise277\exercise277.c(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+z:\c programming\exercise277\exercise277\exercise277.c(19): warning C4101: 'name' : unreferenced local variable
+ManifestResourceCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\c programming\exercise277\Debug\exercise277.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\exercise277.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\c programming\exercise277\Debug\exercise277.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\c programming\exercise277\Debug\exercise277.lib" /MACHINE:X86 Debug\exercise277.exe.embed.manifest.res
+  Debug\exercise277.obj
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\exercise277.exe.embed.manifest" /manifest Debug\exercise277.exe.intermediate.manifest
+  All outputs are up-to-date.
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\c programming\exercise277\Debug\exercise277.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\exercise277.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\c programming\exercise277\Debug\exercise277.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\c programming\exercise277\Debug\exercise277.lib" /MACHINE:X86 Debug\exercise277.exe.embed.manifest.res
+  Debug\exercise277.obj
+  exercise277.vcxproj -> Z:\c programming\exercise277\Debug\exercise277.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\exercise277.unsuccessfulbuild".
+  Touching "Debug\exercise277.lastbuildstate".
+Done Building Project "Z:\c programming\exercise277\exercise277\exercise277.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.23

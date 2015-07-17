@@ -1,0 +1,35 @@
+Thanks for downloading Swengi Server project files. This file will help you setup server for Swengi project.
+
+If you have just downloaded the folder with this file, these are the things you should do now to set up database and server files for the Swengi project.
+
+First, lets set up a database.
+- Create a database in phpMyAdmin in your server. Give it whatever name you like. Then go to Import Tab. In the section "File to Import", click Browse and  choose the file "supercali.sql". Click "Go" in the bottom right of the Import Tab. You have just built required tables in your database.
+
+Now lets change database connection information in configuration files before uploading the php files in the server. 
+
+- Go to the folder "php_files". In file "con.php", instead of "supercali", give the name of your database to be assigned to $db. Change the password and username if you are using different server than than Swengi.
+- Go to the folder "supercali". In file "config.php", instead of "supercali", give the name of your database to be assigned to $d. Change the password and username if you are using different server than than Swengi.
+
+Now you can upload the folder "Supercali" and "php_files"
+
+
+Information on folder "Supercali"
+This is the website for the calendar. It also provides back end to database access.
+Default administrator username - admin
+password - swengi11
+
+Information on folder "php_files"
+php_files contains the php files which works with the client side in iPhone.
+
+
+Check the file "Description of php scripts" to know more about php scripts which are in folder "php_files"
+Check the file "Information on cron jobs" to know more about cron jobs in linux server.
+
+
+
+
+
+
+
+
+

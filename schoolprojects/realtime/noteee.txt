@@ -1,0 +1,3 @@
+read only ___bit field value 0
+write only ____1
+read and write ------2 

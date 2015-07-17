@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(void){
+printf("i");
+char ch='1';
+fflush(stdout);
+//write(1,'1',1);
+write(1,&ch,1);
+
+}

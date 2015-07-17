@@ -1,0 +1,126 @@
+
+Description of the php scripts inside "php_files" folder and the triggers which were made during sprint #2 by the server team.
+Entries with a * are suggestions for an 
+upcoming sprint and sooner or later must be addressed. p
+
+
+
+con.php
+this scripts names the variables required to set up connection with database.
+
+supercali2xml.php
+creates xml from the table "events".
+
+supercali2xmlshowxml.php
+creates xml from a particular row data of table "events".
+
+
+pulldata.php and pulldata1.php
+These scripts makes an xml out of tabs "get_event". "get_event" is a joint view of the tables 'dates', 'events' and 'geolocation'
+
+
+simplepush.php:
+this script handles sending the actual push message to the proper phone. 
+currently it only send to one phone which is the phone that has the tokenid
+that is printed in the script. 
+*this needs to be changed to a variable which can be set bya sql query to
+get the users tokenid from the database.
+*there needs to be a table made to hold at least the user_id ant tokenid 
+from the phone.
+*the app needs to some how send the server the tokenid so we can save it 
+in the database.
+
+pushUpdate.php:
+this script checks the updated column. If this column is set to 1 it calls 
+the simplepush.php which send a push notification to that app. This script 
+is ran by a cron job on the server and should not need anyone to run it.
+at the end of the script it sets the updated column back to 0. It is set 
+back to 1 by a trigger which checks the events table for any updates to any
+event currently in the events table.
+
+pull_trigger_update.php:
+This is the script the phone should use to get all the new updates for the
+particular user. The trigger_updates table is managed by 2 other scripts, 2 triggers and two corns jobs on the server.
+
+pull_trigger_update1.php:
+Same as above but it sets the update column in the trigger_updates table to 
+1 so that the crons job on the sever will delete it from the table. In the
+future this is the script that should be used. The first one can be used 
+for testing so that those entries are not constantly deleted and then need 
+be re-added.
+
+EventInput.php:
+This script handles input of 1 or many events into the database. if the 
+phone sends an empty event it is still added to the server. 
+*these empty events should be remove from the events, dates, trigger_updates,
+geolocations tables using a script and crons job. 
+This is the script that should be used from now on in any app to add events
+to the database.
+
+deleteUpdates.php:
+This script is ran by a crons job on the server. when ran it checks the 
+checked column on the trigger_updates table for a 1 and removes it from the
+table. This handles single and multiple entries in the table. 
+
+gettoken.php
+This file expects to get token no. and user_id from client. This script then
+checks if that user with that user_id exists in database and if yes then
+save the user_id and token number in the table "tokens"
+
+multiplepushcron.php
+This script is run by cron job every minute
+This script checks if there are any updated event in table "trigger_updates" and if there are this script executes "multiplepush.php" which sends push notification to multiple devices.
+
+multiplepush.php
+This script selects multiple tokens from database which belong to users of groups which have an updated event. And then the script pushes a notification to the devices of those users.
+
+deleteEvent.php
+This script deletes an event from database.
+This script expects client's user_id (from GET method), event's event id, title and description (by POST method). you can change both to POST method or according to client's app.
+It then checks record with user given title and description in table "events". It deletes the record only if event id and user id sent by the client matches with the data in database.
+
+
+
+cron jobs:
+cron is a time keeper on the linux system. you need to edit the crontab
+file and add an entry for anything to happen. Its best to use the root 
+account for setting these jobs in the event the script needs root privileges.
+to set an entry log into the server by opening terminal and typing this:
+
+ssh -i swengi11_key.pem ubuntu@ec2-204-236-207-173.compute-1.amazonaws.com
+
+from there type sudo su. this puts you as a root user. now type
+crontab -e
+it should ask which editor you want to use. select nano if it asks. 
+if not it may already use nano
+scroll to the bottom of the file with the down arrow key.
+a cron job entry looks like this:
+
+* * * * * php /var/www/test/pushUpdate.php >/dev/null 2>&1
+
+the stars at the beginning represent minutes hours days  months and year. 
+right now this job is set to go every minute of every day of every month. 
+please look up cron in google for more specific detail of how to set these. 
+after the stars is the command php which is needed to run php scripts.
+the next thing is the full path to the php file we want to run:
+
+/var/www/test/pushUpdate.php
+
+and lastly there is a command so corn will not send an email every time it
+runs the job:
+
+>/dev/null 2>&1
+
+once you have your job set press ctrl & o (thats the letter o). this will 
+save the file. then press ctrl & x to exit. your done. 
+
+trigger commands:
+this file shows the commands used to set up the triggers in mysql. They are
+set up on the events table. 
+the first trigger will fire every time a new entry is inserted to the table.
+it then writes a new entry into the trigger_updates table which is used for 
+checking if a user has new updates.
+the second trigger fires when an event is updated on the events table. It 
+changes the updated column to 1 on the trigger_updates table so that we
+can send a push notification to the user whose event has updated.
+

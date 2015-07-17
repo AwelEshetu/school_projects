@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href=" resources/privatesytle.css" />
+<script src="http://html5shiv.googlecode.com/svn/trunk
+/html5.js" >
+</script>
+<!--[if IE] >
+<script src="http://html5shiv.googlecode.com/svn/trunk
+/html5.js" >
+</script>
+<![endif]-->
+<hgroup>
+<h1>My New Home Page!
+</h1>
+<h2> Using HTML5 and CSS3
+</h2>
+</hgroup>
+<script>
+function loadCanvas(){
+var canvas=document.getElementById('my_canvas');
+if(canvas.getContext){
+var ctx = canvas.getContext('2d');
+ctx.beginPath(); <!--called to start a path drawing-->
+ctx.arc(245,160,150,0,Math.PI*2,true);<!--circle drawn with r=150px,near the center of the canvas, using -->
+<!--the ctx.arc() function. The fill style is set to a yellow color, before the -->
+<!--ctx.fill() and ctx.stroke() functions are called, creating a large yellow circle -->
+<!--with a black outline. This is the main face.-->
+ctx.fillStyle = "rgb(255,255,204)";
+ctx.fill();
+ctx.stroke();
+
+ctx.fillStyle = "black"; <!--The fill style is set to black as the next shapes to be drawn are the eyes. This time-->
+<!--full circles are created using ctx.arc() which have a radius of just 15 pixels, and-->
+<!--the ctx.fill() function is called to draw them.-->
+ctx.beginPath();
+ctx.arc(200,110,15,0,Math.PI*2,true);
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(280,110,15,0,Math.PI*2,true);
+ctx.fill();
+
+ctx.beginPath(); <!--The next block of code creates the nose, which is an arc that is not a full circle and is-->
+<!--placed below and centered between the eyes that were just created. The nose is not-->
+<!--to be filled, so the ctx.stroke() function is used instead.-->
+ctx.arc(240,170,20,4,Math.PI*2,true);
+ctx.stroke();
+
+ctx.beginPath();<!--Finally, a large semi-circle arc is stroked below the nose to create the mouth.-->
+ctx.arc(240,190,60,0,Math.PI,false);
+ctx.stroke();
+} else {
+document.getElementById('my_canvas').style.display = 'none';
+document.getElementById('no-canvas').style.display = 'block';
+}
+}
+
+
+</script>
+
+</head>
+<body onload="loadCanvas();">
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Me</a></li>
+<li><a href="#">My Works</a></li>
+<li><a href="#">Contact Me</a></li>
+</ul>
+</nav>
+<article>
+<header>
+<time datetime="2012-03-26" pubdate>
+<span>March</span> 26</time>
+<h1>
+<a href="#" title="Link to my post" rel="bookmark">Article Heading</a>
+</h1>
+
+</header>
+<p>This is a freaking Article body or content and it should be put after the closing tag of header.</p>
+<section>
+<header>
+<h1>Freaking section header
+</h1>
+</header>
+<p>This is a section body or content. likways it should be put after the closing tag of header for the section.</p>
+</section>
+<section>
+<header>
+<h1> Video Section Header</h1>
+</header>
+<p>
+<video src="http://www.double.co.nz/video_test/transformers480.ogg" controls autoplay>
+<div class="no-html5-video">
+
+<p>Video currently supported by Mozilla or Chrome.Safari sucks ha ?</p>
+</div>
+</video></p>
+
+</section>
+<section>
+<header>
+<h1> How about playing with 2D Canvas!</h1>
+</header>
+<p>
+<canvas id="my_canvas" width="480" height="320"></canvas>
+<div id="no-canvas">
+<p>View is limited to Canvas-comaptible browsers! Swallow it dawgg.</p>
+</div>
+</p>
+</section>
+</article>
+<footer>
+<p>&copy;2012 D'em Haters. All rights reserved  </p>
+</footer>
+</body>
+
+
+</html>

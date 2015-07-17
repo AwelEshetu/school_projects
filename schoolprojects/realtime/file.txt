@@ -1,0 +1,1 @@
+this is a test file and only 10 char should be read from this file.

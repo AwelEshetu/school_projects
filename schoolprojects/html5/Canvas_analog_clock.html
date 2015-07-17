@@ -1,0 +1,96 @@
+<!DOCTYPE html>  
+<html>
+	<head><title>Analog Clock</title></head>
+
+	<body>
+		<canvas id="myClock" width="500" height="500">
+			<p>Your browser doesn't support canvas.</p>
+		</canvas>
+
+		<script>
+		/* Clear the canvas every second and redraw the canvas */
+		function clearRect(context) {
+			context.clearRect(0,0,500,500);
+			reDraw(context);
+		}
+		
+		/* Call methods to draw the dial and the clock hands */
+		function reDraw(context) {
+    		drawClockDial(context, 250, 250, 200, "#f80");
+    		var d=new Date();
+    		updateTime(context);
+		}
+		
+		/* Draws the clock dial and the numbers */
+		function drawClockDial(context, posX, posY, radius, color) {
+			circle(context,posX,posY,radius,color);
+			circle(context,posX,posY,10,"#000");
+	
+			for(var i=1;i<13;i++) {
+				var dialAngle = (2*Math.PI*i)/12;
+				var x= posX + ((radius-30)*Math.sin(dialAngle));
+				var y= posY - ((radius-30)*Math.cos(dialAngle));
+				circle(context,x,y,10,"#000");
+			}
+		}
+		
+		/* Updates time on the clock */
+		function updateTime(context) {
+			var now=new Date();
+			var hours = now.getHours();
+			var minutes = now.getMinutes();
+			var seconds = now.getSeconds();
+    		calculateHandPositions(context,250,250, hours, minutes, seconds);			
+		}
+		   
+		/* calculating and puting the hand positions in place*/
+		function calculateHandPositions(context,posX,posY,h,m,s) {	
+			var secondHandLength = 180;
+			var secondHandAngle = 2*Math.PI* s/60;
+			drawHand(context,posX,posY,secondHandLength,secondHandAngle,"#32cd32",2);
+	
+			var minuteHandLength = 150;
+			var minuteHandAngle = 2*Math.PI* m/60;
+			drawHand(context,posX,posY,minuteHandLength,minuteHandAngle,"#ffff00",6);
+	
+			var hourHandLength = 120;
+			var hourHandAngle = (2*Math.PI*h/12) + ((2*Math.PI*m)/(12*60));
+			drawHand(context,posX,posY,hourHandLength,hourHandAngle,"#ff0000",8);
+		}
+
+		/* Drawing the clock hands on canvas */
+		function drawHand(context, posX,posY, handLength, handAngle,color,width) {
+			context.beginPath();
+			context.moveTo(posX,posY);
+			var x= posX + (handLength*Math.sin(handAngle));
+			var y= posY - (handLength*Math.cos(handAngle));
+			context.lineTo(x,y);
+			context.closePath();
+			context.strokeStyle =color;
+			context.lineWidth = width;
+			context.stroke();
+		}
+
+		/* Drawing circle */
+		function circle(context,x,y,r,color) {
+    		context.strokeStyle = "#ff0000";
+    		context.fillStyle =color;
+    		context.beginPath();
+    		context.arc(x,y,r,0,Math.PI*2,false);
+    		context.closePath();
+    		context.fill();
+		}
+/* Check the element is in the DOM and the browser supports canvas */
+		var drawingCanvas = document.getElementById('myClock');
+
+		
+		if(drawingCanvas.getContext) {
+			/* Initaliasing the 2d canvas context*/
+    		var context = drawingCanvas.getContext('2d');
+    		setInterval("clearRect(context)",1000);
+   	}
+    	
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,34 @@
+Thanks for downloading Swengi Server project files. This file will help you setup server for Swengi project.
+
+If you have just downloaded the folder with this file, these are the things you should do now to set up database and server files for the Swengi project.
+
+First, lets set up a database.
+- Create a database in phpMyAdmin in your server. Give it whatever name you like. 
+
+Now lets change database connection information in configuration files before uploading the php files to the server. 
+- Go to the folder "php_files" in Swengi Server project files. In file "con.php", instead of "supercali", give the name of your database to be assigned to $db. Write the password and username to your database server in the respective lines (i.e. for $pass and $user)
+
+Now, upload the folders "supercali" and "php_files" to your server from Swengi Server project files.
+"supercali" folder is a website for your calendar. Now open the website in web-browser by giving address of your server and the path to the "supercali".
+- Fill the required fields in the form shown by supercali. (This is being asked as you are running supercali for the first time).
+Give "localhost" for Database Server. Table Prefix is optional. Provide a new administrator username and password. Click Install.
+It will lead you to a page which says "Installation Successful". Read the whole page carefully. And do as the page says. Don't forget to save the "CalendarPopup.js and ColorPicker2.js and upload it to "js" folder of supercali installation. Now, if you go to the supercali website again, the site will show you the calendar view. 
+
+
+Now Go to the database in phpMyAdmin on your server. Then go to Import Tab. In the section "File to Import", click Browse and  choose the file "supercali.sql" which comes with Swengi Server Project files. Click "Go" in the bottom right of the Import Tab. You have just built required tables in your database.
+
+Now, set up cron jobs for some script that should be run automatically. The file "How to set up cron jobs" in this folder describes how to set it up.
+
+To use the calendar app in iPhone Simulator or in an iPhone, change the path of the strings which communicates with files in server to your server path. 
+
+
+Folder "php_files" contains the php files which works with the client side in iPhone.
+Check the file "Description of php scripts" to know more about php scripts which are in folder "php_files"
+
+
+
+
+
+
+
+

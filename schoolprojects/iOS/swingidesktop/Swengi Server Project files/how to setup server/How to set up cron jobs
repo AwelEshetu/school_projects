@@ -1,0 +1,39 @@
+
+cron jobs:
+----------------
+cron is a time keeper on the linux system. you need to edit the crontab
+file and add an entry for anything to happen. Its best to use the root 
+account for setting these jobs in the event the script needs root privileges.
+to set an entry log into the server by opening terminal. Connect to your server thorough terminal using ssh.
+
+from there type sudo su. this puts you as a root user. now type
+crontab -e
+it should ask which editor you want to use. select nano if it asks. 
+if not it may already use nano
+scroll to the bottom of the file with the down arrow key and add these four lines.
+
+* * * * * php < your installation path >/php_files/pushUpdate.php >/dev/null 2>&1
+*/5 * * * * php  < your installation path >/php_files/deleteUpdates.php >/dev/null 2>&1
+* * * * * php < your installation path >/php_files/multiplepushcron.php >/dev/null 2>&1
+0 0 1 * * php < your installation path >/php_files/old_event.php >/dev/null 2>&1
+
+< your installation path > in above commands means the path to the suupercali installation in your server.
+
+the stars at the beginning represent minutes hours days  months and year. 
+For example, * * * * * sets the cron job to go every minute of every day of every month. 
+please look up cron in google for more specific detail of how to set these. 
+after the stars is the command php which is needed to run php scripts.
+the next thing is the full path to the php file we want to run:
+
+/var/www/test/pushUpdate.php
+
+and lastly there is a command so corn will not send an email every time it
+runs the job:
+
+>/dev/null 2>&1
+
+once you have your job set press ctrl & o (thats the letter o). It will ask where to save the file. Just hit enter. this will 
+save the file. then press ctrl & x to exit. your done. 
+You have just added cron job entries for four PHP scripts
+
+

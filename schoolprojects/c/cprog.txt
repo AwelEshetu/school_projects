@@ -1,0 +1,48 @@
+Input and output.
+
+functions: stdin,stdout,stderr.
+predefined c functions to read and write single characters.
+int getchar()....for reading single character.
+int putchar()....for writing a single character.
+
+streams in c can be opened using fopen()
+// FILE *fopen(const char*filename, const char*mode);
+
+filename: string containing the name of the file to be opened in the format recongrnised by 
+          the environment.
+mode: indicates how the file is to be used....
+r  - open for reading
+w  - open for writing (file need not exist)
+a  - open for appending (file need not exist)
+r+ - open for reading and writing, start at beginning
+w+ - open for reading and writing (overwrite file)
+a+ - open for reading and writing (append if file exists)
+
+
+eg. to open a file..
+. 
+  FILE *fp;
+fp=fopen("c:\\test.txt", "r");// will open the file test.txt in text mode.
+// if need to open in binary mode ,include b with r.....that is "rb".
+
+to close th fopen function we can use the following.
+
+int fclose(FILE *a_file); // function to close fopen function.
+
+eg.fclose(*fp);
+
+
+to write or on the file. we can use fprintf and to read from a file we can use fscanf which are pretty 
+similar to printf and scanf expecpt that file pointer is passed as the the frist argument.
+eg.
+
+FILE *fp;
+fp=fopen("c:\\test.txt", "w");
+fprintf(fp, "Testing...\n");
+
+
+to read single character at a time ....we should use a function as below.
+
+int fgetc(FILE *fp);.....// fgetc take a file pointer and returns int which actually 
+means that when it reads a normal character in the file,it return a value suitable for storing
+in an unsigned char(basically a number in the range 0 to 255).

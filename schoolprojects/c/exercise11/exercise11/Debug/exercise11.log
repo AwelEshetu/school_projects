@@ -1,0 +1,20 @@
+﻿Build started 2.3.2011 15:53:50.
+Project "Z:\c programming\exercise11\exercise11\exercise11.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\exercise11.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  All outputs are up-to-date.
+ManifestResourceCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+Manifest:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "Debug\exercise11.unsuccessfulbuild".
+  Touching "Debug\exercise11.lastbuildstate".
+Done Building Project "Z:\c programming\exercise11\exercise11\exercise11.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54

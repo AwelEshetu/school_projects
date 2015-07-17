@@ -1,0 +1,296 @@
+TAppointment
+v7
+r0
+t325594990.517866
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Info.plist Appointment-Info.plist
+cCompileXIB /Volumes/DATA/Users/dineshs/Documents/Appointment/MainWindow.xib
+cCompileXIB /Volumes/DATA/Users/dineshs/Documents/Appointment/RootViewController.xib
+cProcessPCH /var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch.gch Appointment_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment.momd /Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment.xcdatamodeld
+cCompileC build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/main.o /Volumes/DATA/Users/dineshs/Documents/Appointment/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/AppointmentAppDelegate.o /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/RootViewController.o /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment normal i386
+cGenerateDSYMFile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app.dSYM /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment
+cTouch /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D54D02800000000001D6EC0
+t1297403944
+s1928896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D01A000000000000046B
+t1297403930
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment.xcdatamodeld
+c000000004DB7F7E10000000000000088
+t1303902177
+s136
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment_Prefix.pch
+c000000004DB7F7E1000000000000016B
+t1303902177
+s363
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.h
+c000000004DB7F7E100000000000003F5
+t1303902177
+s1013
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.m
+c000000004DB7F7E10000000000001FF9
+t1303902177
+s8185
+i"AppointmentAppDelegate.h"
+i"RootViewController.h"
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.h
+c000000004DB7F7E1000000000000024D
+t1303902177
+s589
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.m
+c000000004DB7F7E10000000000002FE9
+t1303902177
+s12265
+i"RootViewController.h"
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/MainWindow.xib
+c000000004DB7F7E10000000000006004
+t1303902177
+s24580
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/RootViewController.xib
+c000000004DB7F7E10000000000004456
+t1303902177
+s17494
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/Appointment.LinkFileList
+c000000004DB7F7E600000000000001C7
+t1303902182
+s455
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/AppointmentAppDelegate.o
+t1303902190
+s69288
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/RootViewController.o
+t1303902190
+s68672
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/main.o
+t1303902189
+s6332
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app
+t1303902190
+s272
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app.dSYM
+t1303902190
+s102
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment
+t1303902190
+s31700
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment.momd
+t1303902189
+s136
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Info.plist
+t1303902182
+s607
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/MainWindow.nib
+t1303902187
+s2460
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/PkgInfo
+t1303902182
+s8
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/RootViewController.nib
+t1303902187
+s1518
+
+N/Volumes/DATA/Users/dineshs/Documents/Appointment/main.m
+c000000004DB7F7E1000000000000016F
+t1303902177
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch.gch
+t1303902189
+s16679120
+
+NAppointment-Info.plist
+c000000004DB7F7E1000000000000038D
+t1303902177
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325594982#325594982#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/AppointmentAppDelegate.o /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325594989.915243
+e325594990.104510
+r1
+xCompileC
+xbuild/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/AppointmentAppDelegate.o
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.m325594989#325594990#0(0"0(0#0#82"/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.m8596061760#2166"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-generated-files.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-own-target-headers.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-all-target-headers.hmap -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-project-headers.hmap -F/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/include -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources/i386 -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources -include /var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch -c /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/AppointmentAppDelegate.m -o /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/AppointmentAppDelegate.o0#
+
+CCompileC build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/RootViewController.o /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325594989.947615
+e325594990.130856
+r1
+xCompileC
+xbuild/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/RootViewController.o
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.m325594989#325594990#0(0"0(0#0#78"/Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.m8594175424#2158"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-generated-files.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-own-target-headers.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-all-target-headers.hmap -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-project-headers.hmap -F/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/include -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources/i386 -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources -include /var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch -c /Volumes/DATA/Users/dineshs/Documents/Appointment/Classes/RootViewController.m -o /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/main.o /Volumes/DATA/Users/dineshs/Documents/Appointment/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325594989.762033
+e325594989.915135
+r1
+xCompileC
+xbuild/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/main.o
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Volumes/DATA/Users/dineshs/Documents/Appointment/main.m325594989#325594989#0(0"0(0#0#56"/Volumes/DATA/Users/dineshs/Documents/Appointment/main.m8601184544#2122"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-generated-files.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-own-target-headers.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-all-target-headers.hmap -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-project-headers.hmap -F/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/include -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources/i386 -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources -include /var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch -c /Volumes/DATA/Users/dineshs/Documents/Appointment/main.m -o /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Volumes/DATA/Users/dineshs/Documents/Appointment/MainWindow.xib
+s325594982.083397
+e325594987.929089
+r1
+xCompileXIB
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/MainWindow.xib
+o2011-04-27 14:03:07.448 Interface Builder Cocoa Touch Tool[1608:1803] CFPreferences: user home directory at file://localhost/Users/dineshs/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib325594982#325594987#0(241"2011-04-27 14:03:07.448 Interface Builder Cocoa Touch Tool[1608:1803] CFPreferences: user home directory at file://localhost/Users/dineshs/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#64"/Volumes/DATA/Users/dineshs/Documents/Appointment/MainWindow.xib8594227520#607"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/MainWindow.nib /Volumes/DATA/Users/dineshs/Documents/Appointment/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Volumes/DATA/Users/dineshs/Documents/Appointment/RootViewController.xib
+s325594982.084781
+e325594987.929961
+r1
+xCompileXIB
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/RootViewController.xib
+o2011-04-27 14:03:07.448 Interface Builder Cocoa Touch Tool[1607:1803] CFPreferences: user home directory at file://localhost/Users/dineshs/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@33"CompileXIB RootViewController.xib325594982#325594987#0(241"2011-04-27 14:03:07.448 Interface Builder Cocoa Touch Tool[1607:1803] CFPreferences: user home directory at file://localhost/Users/dineshs/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#72"/Volumes/DATA/Users/dineshs/Documents/Appointment/RootViewController.xib8598270240#623"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/RootViewController.nib /Volumes/DATA/Users/dineshs/Documents/Appointment/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CDataModelVersionCompile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment.momd /Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment.xcdatamodeld
+s325594989.761107
+e325594989.947493
+r1
+xDataModelVersionCompile
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment.momd
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment.xcdatamodeld
+lSLF07#2@109"DataModelVersionCompile build/Debug-iphonesimulator/Appointment.app/Appointment.momd Appointment.xcdatamodeld325594989#325594989#0(0"0(0#0#74"/Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment.xcdatamodeld8601461472#431"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment.xcdatamodeld /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment.momd0#
+
+CGenerateDSYMFile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app.dSYM /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment
+s325594990.460409
+e325594990.514566
+r1
+xGenerateDSYMFile
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app.dSYM
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Appointment.app.dSYM build/Debug-iphonesimulator/Appointment.app/Appointment325594990#325594990#0(0"0(0#0#105"/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment8601235968#428"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment -o /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app.dSYM0#
+
+CLd /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment normal i386
+s325594990.130962
+e325594990.460285
+r1
+xLd
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment
+xnormal
+xi386
+lSLF07#2@110"Link /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment325594990#325594990#0(0"0(0#0#0"8606511488#995"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator -F/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator -filelist /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Objects-normal/i386/Appointment.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Appointment0#
+
+CProcessInfoPlistFile /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Info.plist Appointment-Info.plist
+s325594982.064229
+e325594982.083296
+r1
+xProcessInfoPlistFile
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Info.plist
+xAppointment-Info.plist
+lSLF07#2@30"Process Appointment-Info.plist325594982#325594982#0(0"0(0#0#72"/Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment-Info.plist28429440806813808#524"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Appointment-Info.plist -genpkginfo /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app/Info.plist0#
+
+CProcessPCH /var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch.gch Appointment_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s325594987.930249
+e325594989.760928
+r1
+xProcessPCH
+x/var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch.gch
+xAppointment_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Appointment_Prefix.pch325594987#325594989#0(0"0(0#0#72"/Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment_Prefix.pch8594819040#1999"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-generated-files.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-own-target-headers.hmap -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-all-target-headers.hmap -iquote /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/Appointment-project-headers.hmap -F/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/include -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources/i386 -I/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Appointment.build/Debug-iphonesimulator/Appointment.build/DerivedSources -c /Volumes/DATA/Users/dineshs/Documents/Appointment/Appointment_Prefix.pch -o /var/folders/lq/lqmkyOMEF0uMMonH8144D2RggDY/-Caches-/com.apple.Xcode.1198305529/SharedPrecompiledHeaders/Appointment_Prefix-dbkvbnymzhjmhoamijzykazrzyzf/Appointment_Prefix.pch.gch0#
+
+CTouch /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app
+s325594990.514665
+e325594990.517818
+r1
+xTouch
+x/Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app
+lSLF07#2@99"Touch /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app325594990#325594990#0(0"0(0#0#0"8599916672#304"    cd /Volumes/DATA/Users/dineshs/Documents/Appointment    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/DATA/Users/dineshs/Documents/Appointment/build/Debug-iphonesimulator/Appointment.app0#
+

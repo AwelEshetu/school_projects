@@ -1,0 +1,30 @@
+﻿Build started 13.4.2011 16:33:57.
+Project "Z:\c programming\exercise21\exercise21\exercise21.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\exercise21.lastbuildstate".
+InitializeBuildStatus:
+  Creating "Debug\exercise21.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt exercise21.c
+  exercise21.c
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\exercise21.exe.embed.manifest.res" Debug\exercise21_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\c programming\exercise21\Debug\exercise21.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\exercise21.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\c programming\exercise21\Debug\exercise21.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\c programming\exercise21\Debug\exercise21.lib" /MACHINE:X86 Debug\exercise21.exe.embed.manifest.res
+  Debug\exercise21.obj
+Manifest:
+  Deleting file "Debug\exercise21.exe.embed.manifest".
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\exercise21.exe.embed.manifest" /manifest Debug\exercise21.exe.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\exercise21.exe.embed.manifest.res" Debug\exercise21_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\c programming\exercise21\Debug\exercise21.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\exercise21.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\c programming\exercise21\Debug\exercise21.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\c programming\exercise21\Debug\exercise21.lib" /MACHINE:X86 Debug\exercise21.exe.embed.manifest.res
+  Debug\exercise21.obj
+  exercise21.vcxproj -> Z:\c programming\exercise21\Debug\exercise21.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\exercise21.unsuccessfulbuild".
+  Touching "Debug\exercise21.lastbuildstate".
+Done Building Project "Z:\c programming\exercise21\exercise21\exercise21.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.67

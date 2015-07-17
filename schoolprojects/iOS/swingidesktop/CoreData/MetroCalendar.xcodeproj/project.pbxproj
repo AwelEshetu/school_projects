@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2457B3147E60E900143618 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2457B2147E60E900143618 /* Group.m */; };
+		6A2457B6147E60F100143618 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2457B5147E60F100143618 /* User.m */; };
+		6A2457C1147E740D00143618 /* XMLParserGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2457BF147E740D00143618 /* XMLParserGroup.m */; };
+		6A2457C2147E740D00143618 /* XMLParserGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2457C0147E740D00143618 /* XMLParserGroup.xib */; };
+		6A2457C7147E7A6400143618 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2457C5147E7A6400143618 /* DetailViewController.m */; };
+		6A2457C8147E7A6400143618 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2457C6147E7A6400143618 /* DetailViewController.xib */; };
+		6AA4ADF1147D463400526678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA4ADF0147D463400526678 /* UIKit.framework */; };
+		6AA4ADF3147D463400526678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA4ADF2147D463400526678 /* Foundation.framework */; };
+		6AA4ADF5147D463400526678 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA4ADF4147D463400526678 /* CoreGraphics.framework */; };
+		6AA4ADFB147D463400526678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4ADF9147D463400526678 /* InfoPlist.strings */; };
+		6AA4ADFD147D463400526678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4ADFC147D463400526678 /* main.m */; };
+		6AA4AE01147D463500526678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4AE00147D463500526678 /* AppDelegate.m */; };
+		6AA4AE04147D463500526678 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4AE03147D463500526678 /* FirstViewController.m */; };
+		6AA4AE06147D463500526678 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4AE05147D463500526678 /* first.png */; };
+		6AA4AE08147D463500526678 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4AE07147D463500526678 /* first@2x.png */; };
+		6AA4AE0B147D463500526678 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4AE0A147D463500526678 /* SecondViewController.m */; };
+		6AA4AE0D147D463500526678 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4AE0C147D463500526678 /* second.png */; };
+		6AA4AE0F147D463500526678 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4AE0E147D463500526678 /* second@2x.png */; };
+		6AA4AE12147D463500526678 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4AE10147D463500526678 /* FirstViewController.xib */; };
+		6AA4AE15147D463500526678 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4AE13147D463500526678 /* SecondViewController.xib */; };
+		6AA4AE21147D481300526678 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4AE20147D481300526678 /* CalendarView.m */; };
+		6AA4AE25147D496E00526678 /* AddEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4AE23147D496E00526678 /* AddEvent.m */; };
+		6AA4AE26147D496E00526678 /* AddEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA4AE24147D496E00526678 /* AddEvent.xib */; };
+		6AB64F7C1483BE8300139335 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB64F7B1483BE8300139335 /* Event.m */; };
+		6AB8EF89147D79E80053CBA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB8EF88147D79E80053CBA1 /* CoreData.framework */; };
+		6AE6DF8C147E5749007AA4DC /* DataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6DF8A147E5749007AA4DC /* DataStore.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A2457B1147E60E900143618 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		6A2457B2147E60E900143618 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		6A2457B4147E60F100143618 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6A2457B5147E60F100143618 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6A2457BE147E740D00143618 /* XMLParserGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParserGroup.h; sourceTree = "<group>"; };
+		6A2457BF147E740D00143618 /* XMLParserGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParserGroup.m; sourceTree = "<group>"; };
+		6A2457C0147E740D00143618 /* XMLParserGroup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMLParserGroup.xib; sourceTree = "<group>"; };
+		6A2457C4147E7A6300143618 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6A2457C5147E7A6400143618 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6A2457C6147E7A6400143618 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		6AA4ADEC147D463400526678 /* MetroCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA4ADF0147D463400526678 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AA4ADF2147D463400526678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AA4ADF4147D463400526678 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AA4ADF8147D463400526678 /* MetroCalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetroCalendar-Info.plist"; sourceTree = "<group>"; };
+		6AA4ADFA147D463400526678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AA4ADFC147D463400526678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AA4ADFE147D463400526678 /* MetroCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetroCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		6AA4ADFF147D463400526678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AA4AE00147D463500526678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AA4AE02147D463500526678 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6AA4AE03147D463500526678 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6AA4AE05147D463500526678 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		6AA4AE07147D463500526678 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		6AA4AE09147D463500526678 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6AA4AE0A147D463500526678 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6AA4AE0C147D463500526678 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		6AA4AE0E147D463500526678 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		6AA4AE11147D463500526678 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		6AA4AE14147D463500526678 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		6AA4AE1F147D481300526678 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		6AA4AE20147D481300526678 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		6AA4AE22147D496E00526678 /* AddEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEvent.h; sourceTree = "<group>"; };
+		6AA4AE23147D496E00526678 /* AddEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEvent.m; sourceTree = "<group>"; };
+		6AA4AE24147D496E00526678 /* AddEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEvent.xib; sourceTree = "<group>"; };
+		6AB64F7A1483BE8300139335 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		6AB64F7B1483BE8300139335 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		6AB8EF88147D79E80053CBA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6AE6DF8B147E5749007AA4DC /* DataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataStore.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA4ADE9147D463400526678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB8EF89147D79E80053CBA1 /* CoreData.framework in Frameworks */,
+				6AA4ADF1147D463400526678 /* UIKit.framework in Frameworks */,
+				6AA4ADF3147D463400526678 /* Foundation.framework in Frameworks */,
+				6AA4ADF5147D463400526678 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AA4ADE1147D463400526678 = {
+			isa = PBXGroup;
+			children = (
+				6A2457B4147E60F100143618 /* User.h */,
+				6A2457B5147E60F100143618 /* User.m */,
+				6A2457B1147E60E900143618 /* Group.h */,
+				6A2457B2147E60E900143618 /* Group.m */,
+				6AE6DF8A147E5749007AA4DC /* DataStore.xcdatamodeld */,
+				6AB64F7A1483BE8300139335 /* Event.h */,
+				6AB64F7B1483BE8300139335 /* Event.m */,
+				6AB8EF88147D79E80053CBA1 /* CoreData.framework */,
+				6AA4AE22147D496E00526678 /* AddEvent.h */,
+				6AA4AE23147D496E00526678 /* AddEvent.m */,
+				6AA4AE24147D496E00526678 /* AddEvent.xib */,
+				6AA4AE1F147D481300526678 /* CalendarView.h */,
+				6AA4AE20147D481300526678 /* CalendarView.m */,
+				6AA4ADF6147D463400526678 /* MetroCalendar */,
+				6AA4ADEF147D463400526678 /* Frameworks */,
+				6AA4ADED147D463400526678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AA4ADED147D463400526678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA4ADEC147D463400526678 /* MetroCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA4ADEF147D463400526678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AA4ADF0147D463400526678 /* UIKit.framework */,
+				6AA4ADF2147D463400526678 /* Foundation.framework */,
+				6AA4ADF4147D463400526678 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AA4ADF6147D463400526678 /* MetroCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				6AA4ADFF147D463400526678 /* AppDelegate.h */,
+				6AA4AE00147D463500526678 /* AppDelegate.m */,
+				6AA4AE02147D463500526678 /* FirstViewController.h */,
+				6AA4AE03147D463500526678 /* FirstViewController.m */,
+				6A2457BE147E740D00143618 /* XMLParserGroup.h */,
+				6A2457BF147E740D00143618 /* XMLParserGroup.m */,
+				6A2457C4147E7A6300143618 /* DetailViewController.h */,
+				6A2457C5147E7A6400143618 /* DetailViewController.m */,
+				6A2457C6147E7A6400143618 /* DetailViewController.xib */,
+				6A2457C0147E740D00143618 /* XMLParserGroup.xib */,
+				6AA4AE05147D463500526678 /* first.png */,
+				6AA4AE07147D463500526678 /* first@2x.png */,
+				6AA4AE09147D463500526678 /* SecondViewController.h */,
+				6AA4AE0A147D463500526678 /* SecondViewController.m */,
+				6AA4AE0C147D463500526678 /* second.png */,
+				6AA4AE0E147D463500526678 /* second@2x.png */,
+				6AA4AE10147D463500526678 /* FirstViewController.xib */,
+				6AA4AE13147D463500526678 /* SecondViewController.xib */,
+				6AA4ADF7147D463400526678 /* Supporting Files */,
+			);
+			path = MetroCalendar;
+			sourceTree = "<group>";
+		};
+		6AA4ADF7147D463400526678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AA4ADF8147D463400526678 /* MetroCalendar-Info.plist */,
+				6AA4ADF9147D463400526678 /* InfoPlist.strings */,
+				6AA4ADFC147D463400526678 /* main.m */,
+				6AA4ADFE147D463400526678 /* MetroCalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AA4ADEB147D463400526678 /* MetroCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA4AE18147D463500526678 /* Build configuration list for PBXNativeTarget "MetroCalendar" */;
+			buildPhases = (
+				6AA4ADE8147D463400526678 /* Sources */,
+				6AA4ADE9147D463400526678 /* Frameworks */,
+				6AA4ADEA147D463400526678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroCalendar;
+			productName = MetroCalendar;
+			productReference = 6AA4ADEC147D463400526678 /* MetroCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA4ADE3147D463400526678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6AA4ADE6147D463400526678 /* Build configuration list for PBXProject "MetroCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AA4ADE1147D463400526678;
+			productRefGroup = 6AA4ADED147D463400526678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AA4ADEB147D463400526678 /* MetroCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AA4ADEA147D463400526678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA4ADFB147D463400526678 /* InfoPlist.strings in Resources */,
+				6AA4AE06147D463500526678 /* first.png in Resources */,
+				6AA4AE08147D463500526678 /* first@2x.png in Resources */,
+				6AA4AE0D147D463500526678 /* second.png in Resources */,
+				6AA4AE0F147D463500526678 /* second@2x.png in Resources */,
+				6AA4AE12147D463500526678 /* FirstViewController.xib in Resources */,
+				6AA4AE15147D463500526678 /* SecondViewController.xib in Resources */,
+				6AA4AE26147D496E00526678 /* AddEvent.xib in Resources */,
+				6A2457C2147E740D00143618 /* XMLParserGroup.xib in Resources */,
+				6A2457C8147E7A6400143618 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA4ADE8147D463400526678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA4ADFD147D463400526678 /* main.m in Sources */,
+				6AA4AE01147D463500526678 /* AppDelegate.m in Sources */,
+				6AA4AE04147D463500526678 /* FirstViewController.m in Sources */,
+				6AA4AE0B147D463500526678 /* SecondViewController.m in Sources */,
+				6AA4AE21147D481300526678 /* CalendarView.m in Sources */,
+				6AA4AE25147D496E00526678 /* AddEvent.m in Sources */,
+				6AE6DF8C147E5749007AA4DC /* DataStore.xcdatamodeld in Sources */,
+				6A2457B3147E60E900143618 /* Group.m in Sources */,
+				6A2457B6147E60F100143618 /* User.m in Sources */,
+				6A2457C1147E740D00143618 /* XMLParserGroup.m in Sources */,
+				6A2457C7147E7A6400143618 /* DetailViewController.m in Sources */,
+				6AB64F7C1483BE8300139335 /* Event.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AA4ADF9147D463400526678 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA4ADFA147D463400526678 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AA4AE10147D463500526678 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA4AE11147D463500526678 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		6AA4AE13147D463500526678 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA4AE14147D463500526678 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AA4AE16147D463500526678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AA4AE17147D463500526678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AA4AE19147D463500526678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetroCalendar/MetroCalendar-Prefix.pch";
+				INFOPLIST_FILE = "MetroCalendar/MetroCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AA4AE1A147D463500526678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetroCalendar/MetroCalendar-Prefix.pch";
+				INFOPLIST_FILE = "MetroCalendar/MetroCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA4ADE6147D463400526678 /* Build configuration list for PBXProject "MetroCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA4AE16147D463500526678 /* Debug */,
+				6AA4AE17147D463500526678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA4AE18147D463500526678 /* Build configuration list for PBXNativeTarget "MetroCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA4AE19147D463500526678 /* Debug */,
+				6AA4AE1A147D463500526678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6AE6DF8A147E5749007AA4DC /* DataStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6AE6DF8B147E5749007AA4DC /* DataStore.xcdatamodel */,
+			);
+			currentVersion = 6AE6DF8B147E5749007AA4DC /* DataStore.xcdatamodel */;
+			path = DataStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6AA4ADE3147D463400526678 /* Project object */;
+}

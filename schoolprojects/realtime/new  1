@@ -1,0 +1,97 @@
+#include <unistd.h>
+#include <stdio.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <stdlib.h>
+
+void set_fl(int fd, int flags);
+
+
+int main(void)
+{
+	int fd_flags;
+	int fl_flags;
+	int fd;
+	int accesmode;
+	
+	
+	fd=open("file.txt",O_CREAT|O_RDONLY,0700);
+	if(fd==-1) {
+		perror("open");
+		exit(0);
+		}
+
+	fl_flags=fcntl(fd,F_GETFL,0);
+	fd_flags=fcntl(fd,F_GETFD,0);
+
+	
+
+	if(fd_flags & FD_CLOEXEC)
+		printf("FD_CLOEXEC: ON\n");
+	else
+		printf("FD_CLOEXEC: OFF\n");
+	
+	if(fl_flags & O_NONBLOCK)
+		printf("O_NONBLOCK: ON\n");
+	else
+		printf("O_NONBLOCK: OFF\n");
+
+	if(fl_flags & O_APPEND)
+		printf("O_APPEND: ON\n");
+	else
+		printf("O_APPEND: OFF\n");
+
+	accesmode= fl_flags & O_ACCMODE;
+
+	if(accesmode==O_WRONLY)
+		printf("\access mode:write only\n");
+	if(accesmode==O_RDONLY)
+		printf("accesmode:read only\n");
+	if(accesmode==O_RDWR)
+		printf("accesmode:read write\n");
+
+
+	set_fl(fd, O_NONBLOCK);
+	
+	
+	fl_flags=fcntl(fd,F_GETFL,0);
+
+	if(fd_flags & FD_CLOEXEC)
+		printf("FD_CLOEXEC: ON\n");
+	else
+		printf("FD_CLOEXEC: OFF\n");
+	
+	if(fl_flags & O_NONBLOCK)
+		printf("O_NONBLOCK: ON\n");
+	else
+		printf("O_NONBLOCK: OFF\n");
+
+	if(fl_flags & O_APPEND)
+		printf("O_APPEND: ON\n");
+	else
+		printf("O_APPEND: OFF\n");
+
+	accesmode= fl_flags & O_ACCMODE;
+
+	if(accesmode==O_WRONLY)
+		printf("\access mode:write only\n");
+	if(accesmode==O_RDONLY)
+		printf("accesmode:read only\n");
+	if(accesmode==O_RDWR)
+		printf("accesmode:read write\n");
+
+	
+	close(fd);
+	return 0;
+} 
+
+void set_fl(int fd, int flags)
+{
+	int current_fl;
+	if((current_fl=fcntl(fd,F_GETFL,0))<0)//get file flage
+		printf("error\n");
+	current_fl |= flags;	//turn on flags
+	
+	if((fcntl(fd,F_SETFL,current_fl))<0); //set file flagd
+		printf("error\n");
+}

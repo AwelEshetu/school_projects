@@ -1,0 +1,161 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+<title>Space Vender Game By Canvas(html5)</title>
+</head>
+<body>
+<h1>Vender Your Space!!!</h1>
+<canvas id="canvas" width="600" height="400"></canvas>
+<script src='resources/gameEngine.js'></script>
+<script language="JavaScript">
+var canvas=document.getElementById("canvas");
+var c= canvas.getContext('2d');
+// size of player object
+player.width=46;
+player.height=46;
+var ship_image;
+loadResources();
+function loadResources()
+{
+ship_image=new Image();
+ship_image.src="resources/Hunter1.png";
+
+}
+function mainLoop(){
+var c=canvas.getContext('2d');
+updateGame();
+updateBackground();
+updateEnemies();
+updatePlayer();
+updatePlayerBullets();
+updateEnemyBullets();
+checkCollisions();
+drawBackground(c);
+drawEnemies(c);
+drawPlayer(c);
+drawEnemyBullets(c);
+drawPlayerBullets(c);
+drawOverlay(c);
+}
+
+//---------- Player's behaviours-------
+function firePlayerBullet()
+{
+//add new bullets
+playerBullets.push({
+x:player.x,
+y:player.y -5,
+width:10,
+height:10,
+});
+}
+function drawPlayer(c)
+{
+if(player.state=="dead"){
+   return;  
+}   // if the player is dead return to the start.
+if(player.state=="hit")  //if player is hit by enemy
+{
+c.fillStyle="yellow";  // color the player with yellow
+c.fillRect(player.x,player.y,player.width,player.height);
+return;
+}
+c.drawImage(ship_image,
+            25,1,23,23, //src coords
+			player.x,player.y,player.width,player.height  // dst cooords
+			);
+}
+function drawPlayerBullets(c)
+{
+c.fillStyle="blue";
+for(i in playerBullets)
+{
+var bullet=playerBullets[i];
+c.fillRect(bullet.x,bullet.y,bullet.width,bullet.height);
+
+}
+}
+
+// ------draw background--------
+function drawBackground(c)
+{
+c.fillStyle="black";
+c.fillRect(0,0,canvas.width,canvas.height);
+
+}
+//-------enemy property--------
+function drawEnemies(c)
+{
+for(var i in enemies)
+{
+var enemy=enemies[i];
+if(enemy.state=="alive")
+{
+c.fillStyle="green";
+c.fillRect(enemy.x,enemy.y,enemy.width,enemy.height);
+}
+if(enemy.state=="hit")
+{
+c.fillStyle="purple";
+c.fillRect(enemy.x,enemy.y,enemy.width,enemy.height);
+
+}
+if(enemy.state=="dead")
+{
+c.fillStyle="black";
+c.fillRect(enemy.x,enemy.y,enemy.width,enemy.height);
+}
+
+}
+
+}
+function createEnemyBullet(enemy)
+{
+return {
+     x:enemy.x,
+	 y:enemy.y+enemy.height,
+	 width:4,
+	 height:12,
+	 counter:0,
+        }
+}
+function drawEnemyBullets(c)
+{
+for(var i in enemyBullets)
+{
+var bullet=enemyBullets[i];
+c.fillStyle="yellow";
+c.fillRect(bullet.x,bullet.y,bullet.width,bullet.height);
+}
+}
+//-------Game Restult(overlay)-------
+function drawOverlay(c)
+{
+if(game.state=="over")
+{
+c.fillStyle="white";
+c.font="Bold 40pt Arial";
+c.fillText("Game Over Yow!",140,200);
+c.font="14pt Arial";
+c.fillText("press space to play again",190,250);
+}
+if(game.state=="won")
+{
+c.fillStyle="white";
+c.font="Bold 40pt Arial";
+c.fillText("You Won Mate! HaPpY?",50,200);
+c.font="14pt Arial";
+c.fillText("press space to play again",190,250);
+}
+
+
+}
+
+
+doSetup();
+setInterval(mainLoop,1000/30);
+
+
+</script>
+</body>
+</html>

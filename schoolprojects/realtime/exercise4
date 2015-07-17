@@ -1,0 +1,7 @@
+int main(void)
+{
+int fd_flags;
+int fl_flags;
+int fd;
+fd=open("file.txt,O_CREAT|O_RDWR|O_NONBLLOCK,0700");
+if((fl-fl
